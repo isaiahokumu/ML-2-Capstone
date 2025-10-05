@@ -123,11 +123,17 @@ Visit the deployed model here:
 | **Confusion Matrix**   | Visualization of classification performance |
 
 ```yaml
-Training Accuracy: 92%
-Validation Accuracy: 89%
-Test Accuracy: 90%
+              precision    recall  f1-score   support
+
+      Normal       0.92      0.85      0.88       234
+   Pneumonia       0.91      0.96      0.93       390
+
+    accuracy                           0.92       624
+   macro avg       0.92      0.90      0.91       624
+weighted avg       0.92      0.92      0.92       624
 ```
 
+---
 
 ## Visualizations
 
@@ -139,6 +145,7 @@ Confusion Matrix Heatmap
 
 Feature maps and activation layers (optional)
 
+---
 
 ## Future Work
 
@@ -152,11 +159,15 @@ Expand the dataset for multi-class classification (Viral vs Bacterial Pneumonia)
 
 Integrate into hospital diagnostic workflows.
 
+---
  
  ## Author
 
 Isaiah Okumu
+
 📍 Data Science & Machine Learning Enthusiast
+
+---
 
 ## License
 ````sql
@@ -164,7 +175,6 @@ MIT License
 
 Copyright (c) 2025 Isaiah Okumu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal
 in the Software without restriction...
 ````
